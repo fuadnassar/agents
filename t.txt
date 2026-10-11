@@ -1,0 +1,187 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\moderncvcolor{blue}
+\moderncvstyle{classic}
+
+\renewcommand*{\firstnamestyle}[1]{{\namefont\textcolor{color2}{#1}}}
+
+\usepackage[scale=0.78]{geometry}
+\setlength{\footskip}{50pt}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+
+%------------------------------------------------
+% Personal information
+%------------------------------------------------
+
+\photo[59pt][0pt]{my_img.jpeg}
+\name{Fuad}{\hspace{-0.12em}Nassar}
+\title{Verkehrsingenieur}
+
+\address{München}{Deutschland}{}
+\phone[mobile]{+49~176~794~33~01}
+\email{fuad.nassar@gmx.de}
+
+\social[linkedin]{fuad-nassar}
+\social[github]{fuadnassar}
+
+%------------------------------------------------
+% Document
+%------------------------------------------------
+\begin{document}
+
+\makecvtitle
+
+%------------------------------------------------
+% Profil
+%------------------------------------------------
+
+\section{Profil}
+
+\cvitem{}{
+Verkehrsingenieur (M.Sc. TUM) mit Hintergrund im Bauingenieurwesen und fundierter Erfahrung in der Softwareentwicklung. Mein Fokus liegt auf Verkehrsmodellierung, ÖPNV-Planung und der datengestützten Analyse von Mobilitätssystemen. Ich verbinde domänenspezifisches Wissen mit starken Programmierkenntnissen (Python, Backend-Technologien), um praxisnahe Verkehrslösungen zu entwickeln.
+}
+
+%------------------------------------------------
+% Ausbildung
+%------------------------------------------------
+
+\section{Bildungsweg}
+
+\cventry
+{2023--2026}
+{M.Sc. Transportation Systems}
+{Technische Universität München (TUM)}
+{München}
+{}
+{
+\begin{itemize}
+\item \textbf{Schwerpunkte:} Verkehrsnachfragemanagement.
+\item \textbf{Ausgewählte Module:} ÖPNV-Konzepte Planung und Betrieb (1,0), Objektorientiertes Programmieren für Verkehrsingenieure (1,7), Optimierung für Verkehrssysteme (1,7).
+\end{itemize}
+}
+
+\cventry
+{2015-2021}
+{B.Sc. Bauingenieurwesen}
+{Al-Balqa Applied University}
+{Jordanien}
+{}
+{
+\begin{itemize}
+\item \textbf{Schwerpunkte:} Konstruktiver Ingenieurbau und Brückenbau.
+\item \textbf{Studienprojekt:} Planung des Bus Rapid Transit (BRT) in Jordanien.
+\end{itemize}
+}
+
+%------------------------------------------------
+% Berufserfahrung
+%------------------------------------------------
+
+\section{Berufserfahrung}
+
+\cventry
+{2021--2023}
+{Mobility Solutions Developer}
+{Open Sky Ltd.}
+{Jordanien}
+{}
+{
+\begin{itemize}
+\item Analyse von ÖPNV-Angeboten sowie Planung von Haltestellen- und Parklösungen.
+\item Backend-Entwicklung mit Node.js, Express.js, REST APIs, PostgreSQL und Firebase sowie Integration von Echtzeitdaten und Fahrzeugverfolgung mit Socket.IO.
+\item \textbf{Projekt HeroBus:} Entwicklung einer Mobilitäts-App für Echtzeit-Busverfolgung und ÖPNV-Informationen.
+\href{https://github.com/fuadnassar/HeroBus}{github.com/fuadnassar/HeroBus}
+\end{itemize}
+}
+
+
+%------------------------------------------------
+% Projekte & Veröffentlichungen
+%------------------------------------------------
+
+\section{Ausgewählte Projekte}
+
+\cventry
+{2025--2026}
+{Masterarbeit: Vergleich von DAST und Linienbusbetrieb}
+{TUM}
+{Deutschland}
+{}
+{
+\begin{itemize}
+\item Simulation und Vergleich von Linienbussen und autonomen Shuttle-Systemen in SUMO.
+\item Programmierung von Python-/TraCI-Skripten für dynamisches Flottenmanagement und Routing.
+\item Aufbereitung räumlicher Daten (QGIS) und Modellierung der Verkehrsnachfrage (MiD 2023).
+\item \textbf{Softwarearchitektur:} Optimierung durch Event-Driven Listeners, Algorithmic Hashing und API-Caching
+\item \textbf{Ergebnis:} Reduktion der Fußwege um 35,5\% bei vergleichbarer Gesamtreisezeit, jedoch 60\% mehr Fahrzeugkilometern.
+\item \textbf{Source Code:} 
+\href{https://github.com/fuadnassar/DAST}
+{github.com/fuadnassar/DAST}
+\end{itemize}
+}
+
+\cventry
+{2024--2025}
+{Walkability-Analyse mit QGIS}
+{Kursprojekt -- Verkehr und Flächennutzung}
+{TUM}
+{}
+{
+\begin{itemize}
+\item Analyse der Fußgängerfreundlichkeit und Erreichbarkeit urbaner Räume mithilfe räumlicher GIS-Indikatoren.
+\item Erstellung von Karten und Walkability-Scores mit QGIS und OpenStreetMap.
+\end{itemize}
+}
+
+\cventry
+{2024--2025}
+{Optimierung des Vehicle Routing Problem (VRP)}
+{Kursprojekt -- Logistik und Verkehrstechnik}
+{TUM}
+{}
+{
+\begin{itemize}
+\item Modellierung und Optimierung von Lieferwegen mithilfe von VRP-Algorithmen.
+\item Simulation von Routingszenarien zur Minimierung der Gesamtfahrstrecke und Fahrzeit mit MATLAB.
+\end{itemize}
+}
+
+\cventry
+{2024--2025}
+{Vorhersage der Verkehrsnachfrage anhand historischer Fahrtdaten}
+{Kursprojekt -- Datenanalyse im Verkehrswesen}
+{TUM}
+{}
+{
+\begin{itemize}
+\item Prognose der Verkehrsnachfrage anhand historischer Mobilitätsdaten mit Python, Pandas und Scikit-learn.
+\item Aufbereitung und Analyse pseudonymisierter Mobilitätsdaten unter Berücksichtigung des Datenschutzes.
+\end{itemize}
+}
+
+
+%------------------------------------------------
+% Fachliche und technische Kenntnisse
+%------------------------------------------------
+\section{Fähigkeiten \& Tools}
+
+\cvitem{Verkehrs
+planung}{ÖPNV-Planung, Verkehrsnachfrage, Erreichbarkeitsanalysen, First-/Last-Mile-Konzepte.}
+\cvitem{Modellier-
+ung}{SUMO/TraCI, PTV Visum, PTV Vissim, MATSim, AutoCAD, Revit.}
+\cvitem{GIS\&Daten}{QGIS, ArcGIS, OpenStreetMap, Python (Pandas, NumPy), SQL, R.}
+\cvitem{IT\&Software}{Java, JavaScript, Node.js, REST APIs, PostgreSQL, Spring Boot, Git, Docker, Linux.}
+%------------------------------------------------
+% Sprachen & Weitere Angaben
+%------------------------------------------------
+
+\section{Sprachen \& Sonstiges}
+
+\cvitem{Sprachen}{Arabisch (Muttersprache) -- Englisch (fließend) -- Deutsch (Gute Grundkenntnisse)}
+\cvitem{Sonstiges}{Führerschein Klasse B -- Wohnsitz in München -- Reise- und Umzugsbereitschaft}
+
+\end{document}
